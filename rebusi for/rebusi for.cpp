@@ -12,7 +12,6 @@ int main()
 	std::cin >> n;
 	for (int i = n; i > 0; i--)
 		std::cout << i << std::endl;
-	z = n + 1;
 	for (int i = 2; i <= n; i++)
 			std::cout << i << std::endl;
 	return 0;
