@@ -12,7 +12,7 @@ int main()
 		for (int k = n-i; k > 0; k--) {
 			std::cout << " ";
 		}
-		for (int j = 0; j < i; j++) {
+		for (int j = 0-i; j < i; j++) {
 			std::cout << "*";
 		}
 		std::cout << std::endl;
@@ -22,7 +22,7 @@ int main()
 		for (int k = n - i; k > 0; k--) {
 			std::cout << " ";
 		}
-		for (int j = 0; j < i; j++) {
+		for (int j = 0-i; j < i; j++) {
 
 			std::cout << "*";
 		}
